@@ -1,0 +1,25 @@
+{
+  "name": "sdeass-api",
+  "version": "1.0.0",
+  "description": "SdeAss Rest Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athaniti/sdeass-api.git"
+  },
+  "author": "Andreas Athanitis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athaniti/sdeass-api/issues"
+  },
+  "homepage": "https://github.com/athaniti/sdeass-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
